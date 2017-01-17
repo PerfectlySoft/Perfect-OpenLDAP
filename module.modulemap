@@ -1,0 +1,6 @@
+module OpenLDAP [system] {
+  header "openldap.h"
+  link "ldap"
+  link "lber"
+  export *
+}
