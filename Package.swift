@@ -3,8 +3,8 @@
 import PackageDescription
 
 let package = Package(
-    name: "OpenLDAP",
-    providers: [
-        .brew(["libldap2-dev"])
-    ]
+	name: "OpenLDAP",
+	providers: [
+		.apt(["libldap2-dev"]),
+	]
 )
